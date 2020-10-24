@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,7 +18,7 @@
   <body>
     <nav class="navbar navbar-expand-md bg-black navbar-dark site-header sticky-top py-1">
       <!-- Brand -->
-      <a class="navbar-brand" href="#"><img src="images/samsung_logo.png" alt="" width="150px" height="58px"></a>
+      <a class="navbar-brand" href="index.html"><img src="images/samsung_logo.png" alt="" width="150px" height="60px"></a>
 
       <!-- Toggler/collapsibe Button -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -30,7 +29,7 @@
       <div class="collapse navbar-collapse" id="collapsibleNavbar">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#">Mobiles</a>
+            <a class="nav-link" href="#mobiles">Mobiles</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">TVs & Audio</a>
@@ -58,56 +57,72 @@
       <div class="product-device-2 d-none d-md-block"></div>
     </div>
 
-    <div class="bg-white text-center mid">
-      <h2 class="wow fadeInUp" data-wow-delay="0.5s">Choose your smartphone</h2>
+    <div class="bg-white text-center mid" id="mobiles">
+      <h2 class="wow fadeInLeft" data-wow-delay="0.3s">Choose your smartphone</h2>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInUp" data-wow-delay="0.5s" style="padding-bottom: 25px">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInLeft" data-wow-delay="0.3s" style="padding-bottom: 25px">
         <div class="my-3 py-3">
           <h2 class="display-5">Galaxy S</h2>
           <p class="lead">The next generation Galaxy</p>
         </div>
         <div>
-          <img src="images/s.jpeg" alt="">
+          <img src="images/s.jpeg" alt="Galaxy S20">
+        </div>
+        <br>
+        <div>
+          <a class="btn btn-outline-dark" href="#">Buy now</a>
         </div>
       </div>
 
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInUp" data-wow-delay="0.5s" style="padding-bottom: 25px">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInRight" data-wow-delay="0.3s" style="padding-bottom: 25px">
         <div class="my-3 p-3">
           <h2 class="display-5">Galaxy Note</h2>
           <p class="lead">The new super powerful Note</p>
         </div>
         <div>
-          <img src="images/note.jpeg" alt="">
+          <img src="images/note.jpeg" alt="Galaxy Note">
+        </div>
+        <br>
+        <div>
+          <a class="btn btn-outline-dark" href="#">Buy now</a>
         </div>
       </div>
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInUp" data-wow-delay="0.5s" style="padding-bottom: 25px">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInLeft" data-wow-delay="0.3s" style="padding-bottom: 25px">
         <div class="my-3 p-3">
           <h2 class="display-5">Galaxy A</h2>
           <p class="lead">Awesome is for everyone</p>
         </div>
         <div>
-          <img src="images/a.jpg" alt="">
+          <img src="images/a.jpg" alt="Galaxy A">
+        </div>
+        <br>
+        <div>
+          <a class="btn btn-outline-dark" href="#">Buy now</a>
         </div>
       </div>
 
-      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInUp" data-wow-delay="0.5s" style="padding-bottom: 25px">
+      <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden wow fadeInRight" data-wow-delay="0.3s" style="padding-bottom: 25px">
         <div class="my-3 py-3">
           <h2 class="display-5">Galaxy M</h2>
           <p class="lead">Meanest monster ever</p>
         </div>
         <div>
-          <img src="images/m.jpg" alt="">
+          <img src="images/m.jpg" alt="Galaxy M">
+        </div>
+        <br>
+        <div>
+          <a class="btn btn-outline-dark" href="#">Buy now</a>
         </div>
       </div>
     </div>
 
     <footer class="container py-5">
-      <div class="row wow fadeInUp" data-wow-delay="0.5s">
+      <div class="row wow fadeInUp" data-wow-delay="0.3s">
         <div class="col-6 col-md">
           <h5>SHOP</h5>
           <ul class="list-unstyled text-small">
@@ -142,17 +157,17 @@
             <li><a class="text-muted" href="#">About</a></li>
             <li><a class="text-muted" href="#">Explore</a></li>
             <li><a class="text-muted" href="#">Careers</a></li>
-            <li><a class="text-muted" href="#">Newsroom</a></li>
+            <li><a class="text-muted" href="#">News</a></li>
           </ul>
         </div>
       </div>
       <div class="text-center">
-        <img src="images/facebook.png" alt="" width="50px" height="50px" class="social-media">
-        <img src="images/instagram.png" alt="" width="50px" height="50px" class="social-media">
-        <img src="images/twitter.png" alt="" width="50px" height="50px" class="social-media">
+        <a href="#"><img src="images/facebook.png" alt="facebook" width="50px" height="50px" class="social-media"></a>
+        <a href="#"><img src="images/instagram.png" alt="instagram" width="50px" height="50px" class="social-media"></a>
+        <a href="#"><img src="images/twitter.png" alt="twitter" width="50px" height="50px" class="social-media"></a>
       </div>
       <div class="text-center" style="padding: 10px">
-        <p>&copy; 2020 Samsung.</p>
+        <p>&copy; 2020 Samsung</p>
       </div>
     </footer>
 
